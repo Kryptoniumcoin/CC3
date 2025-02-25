@@ -93,7 +93,7 @@ function App() {
       <section className="relative min-h-[600px] mt-16 flex items-center">
         <div className="absolute inset-0">
           <img 
-            src="https://images.unsplash.com/photo-1549925245-f20a7c0495ee?auto=format&fit=crop&q=80"
+            src="https://i.pinimg.com/736x/f5/12/c3/f512c33a98faffb03e3769a042c57c2a.jpg"
             alt="Happy family with car"
             className="w-full h-full object-cover"
           />
