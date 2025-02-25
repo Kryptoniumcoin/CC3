@@ -1,0 +1,35 @@
+/*
+Theme Name: CompareOnCall
+Theme URI: https://compareoncall.com
+Author: CompareOnCall
+Author URI: https://compareoncall.com
+Description: A custom WordPress theme for CompareOnCall insurance leads generation
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: compareoncall
+*/
+
+/* Import Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+.sticky-header {
+  transition: all 0.3s ease;
+}
+
+.testimonial-slider {
+  transition: transform 0.5s ease-in-out;
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.faq-answer.active {
+  max-height: 500px;
+}

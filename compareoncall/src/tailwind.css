@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+.sticky-header {
+  transition: all 0.3s ease;
+}
+
+.testimonial-slider {
+  transition: transform 0.5s ease-in-out;
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.faq-answer.active {
+  max-height: 500px;
+}
